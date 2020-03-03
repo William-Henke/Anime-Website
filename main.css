@@ -1,0 +1,150 @@
+/* ------------------------------EVERYTHING UNDER HERE APPLYS TO ALL PAGES------------------------------ */
+
+* {
+    margin: 0;
+}
+
+.button_nav {
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    background-color: #555555;
+    border-radius: 20px;
+}
+
+.button_nav:hover {
+    color: #555555;
+    background-color: white;
+}
+/* ------------------------------EVERYTHING ABOVE HERE APPLYS TO ALL PAGES------------------------------ */
+
+/* ------------------------------EVERYTHING UNDER HERE IS FOR THE INDEX/HOME PAGE------------------------------ */
+
+#grid-a {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:;
+    grid-template-areas:
+        ""
+        ""
+        ""
+        ""
+        ""
+        ""
+        "";
+}
+/* ------------------------------EVERYTHING ABOVE HERE IS FOR THE INDEX/HOME PAGE------------------------------ */
+
+/* ------------------------------EVERYTHING UNDER HERE IS FOR THE MHA PAGE------------------------------ */
+#MHA_body {
+  background-color: #58bbf5;
+}
+
+#grid-b {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1EM;
+    grid-template-areas:
+        "hero hero hero hero hero"
+        "hero hero hero hero hero"
+        "nani nani img1 img1 img1"
+        "hi hi hi hi"
+        "hi hi hi hi hi"
+        "hi hi hi hi hi"
+        "hi hi hi hi hi";
+}
+
+.list {
+    font-weight: bold;
+}
+
+.central {
+    text-align: center;
+}
+
+#hero {
+    grid-area: hero;
+}
+
+#MHA_main {
+    width: 100%;
+    height: 100vh;
+}
+
+#nani {
+    grid-area: nani;
+}
+
+#des {
+    grid-area: des;
+}
+/* ------------------------------EVERYTHING ABOVE HERE IS FOR THE MHA PAGE------------------------------ */
+
+/* ------------------------------EVERYTHING UNDER HERE IS FOR THE SAO PAGE------------------------------ */
+
+#SAO_body {
+    background-color: #c28deb;
+}
+
+#grid-c {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:;
+    grid-template-areas:
+        ""
+        ""
+        ""
+        ""
+        ""
+        ""
+        "";
+}
+/* ------------------------------EVERYTHING ABOVE HERE IS FOR THE SAO PAGE------------------------------ */
+
+/* ------------------------------EVERYTHING UNDER HERE IS FOR THE SHR PAGE------------------------------ */
+
+#SHR_body {
+    background-color: #59bd82;
+}
+
+#grid-d {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:;
+    grid-template-areas:
+        ""
+        ""
+        ""
+        ""
+        ""
+        ""
+        "";
+}
+/* ------------------------------EVERYTHING ABOVE HERE IS FOR THE SHR PAGE------------------------------ */
+
+/* ------------------------------EVERYTHING UNDER HERE IS FOR THE ABOUT PAGE------------------------------ */
+
+#grid-e {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:;
+    grid-template-areas:
+        ""
+        ""
+        ""
+        ""
+        ""
+        ""
+        "";
+}
+/* ------------------------------EVERYTHING ABOVE HERE IS FOR THE ABOUT PAGE------------------------------ */
